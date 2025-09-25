@@ -29,8 +29,6 @@ The project emphasizes fundamentals of web design such as semantic HTML, CSS lay
 
 ## 🏁 Getting Started 
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
-
 ### Prerequisites
 
 - Install 'Live Server' extension by Ritwick Dey on Visual Studio Code (VSC)
@@ -76,10 +74,13 @@ There are no automated tests for this project since it is a static HTML/CSS webs
 
 ## 🎈 Usage 
 
-- Navigate through the website using the top navigation menu.
-- Place an order using the Order Page (form submission will echo back to a test URL).
-- Register as a member using the Member Registration Page.
-- Explore the food menu and promotional banners.
+- Do navigate through the website using the top navigation menu.
+- There are five pages in total with distinct purposes:
+1. Home Page - Provide customers with information, promotions and key items of the stall
+2. Food Menu Page - Allow customers to view the food images, price, description, etc.
+3. Order Page - Allow customers to make an order (form submission will echo back to a test URL).
+4. About Us Page - Provide customers with stall contact details, address, and other information.
+5. Member Registration Page - Allow customers to register as member (form submission will echo back to a test URL).
 
 ## 🚀 Deployment 
 
