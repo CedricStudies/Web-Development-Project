@@ -1,7 +1,8 @@
+<img width="1277" height="681" alt="image" src="https://github.com/user-attachments/assets/80184bb9-34e2-4a20-ad15-209a57136df2" />
+
 # Web Development Project
 
 A Year 1 Semester 2 Web Development project at NYP, built entirely from scratch using only HTML and CSS.
-
 
 ## 📝 Table of Contents
 
@@ -17,12 +18,12 @@ A Year 1 Semester 2 Web Development project at NYP, built entirely from scratch 
 ## 🧐 About 
 
 This project was developed as part of the EGC182 Internet & Web Development module.
-The objective is to create a fully functional website to promote a food stall at the NYP canteen. The website aims to:
+The objective is to create a fully functional website to promote a food stall at one of the NYP canteens. The website aims to:
 
-- Provide information about the stall and its offerings
-- Showcase food items with appealing visuals and descriptions
-- Allow users to place orders via a validated HTML form
-- Provide contact and registration pages for customers
+- Provide relevant information about the stall to customers
+- Entice the customers with appealing viusals and branding
+- Allow customers to buy online with a validated HTML form
+- Allow customers to contact the stall
 
 The project emphasizes fundamentals of web design such as semantic HTML, CSS layouts, responsive design for desktop (1024px width), form validation, and consistent styling across pages.
 
@@ -36,7 +37,18 @@ These instructions will get you a copy of the project up and running on your loc
 
 
 ### Installing
+#### Method 1: Using VSC 
+1. Clone or download this repository:
 
+```
+git clone https://github.com/CedricStudies/Web-Development-Project.git
+```
+
+2. Open the project folder in VSC:
+
+3. Click on any of the html files under the html folder and open with the VSC Live Server extension.
+
+#### Method 2: Using windows terminal 
 1. Clone or download this repository:
 
 ```
@@ -47,9 +59,13 @@ git clone https://github.com/CedricStudies/Web-Development-Project.git
 
 ```
 cd Web-Development-Project
+cd html
 ```
 
-3. In VSC, click on any of the html files under the html folder and open with the VSC Live Server extension.
+3. Initiate file:
+```
+start index.html
+```
 
 ## 🔧 Running Tests
 
@@ -86,5 +102,5 @@ Simply upload the project folder (with subfolders /css, /images, etc.) to your c
 ## 🎉 Acknowledgements
 
 - NYP EGC182 Module Project Guidelines
-- https://blog.hubspot.com/marketing/call-to-action-examples
-- https://www.bigcommerce.com/articles/ecommerce/brands/#FaB10
+- 49 call-to-action examples you can’t help but click. HubSpot Blog. (n.d.). https://blog.hubspot.com/marketing/call-to-action-examples 
+- Team, B. (2025, September 8). Ecommerce brands: Best examples + keys to success. https://www.bigcommerce.com/articles/ecommerce/brands/#FaB10 
