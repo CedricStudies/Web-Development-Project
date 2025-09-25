@@ -1,0 +1,123 @@
+main{
+    background: url(../images/Home-Background.avif) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 365px;
+}
+
+/* <section> <div id="tagline"> */
+
+#tagline{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #FFB74D;
+}
+
+#tagline h1{
+    font-size: 80px;
+}
+
+#tagline p{
+    font-size: 50px;
+    font-style:italic;  
+}
+
+/* <section> <div id="button">*/
+
+#button{
+    display: flex;
+    justify-content: center;
+}
+
+#button a{
+    font-size: 40px;
+    color: white;
+    padding: 10px 80px;
+    border: none;
+    background-color: red;
+    border-radius: 50px;
+    cursor: pointer;
+    margin: 50px 0px;
+}
+
+#button a, #button a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+#button a:hover{
+    color: rgb(186, 16, 16);
+}
+
+/* <section> <div id="promotion"> */
+
+#promotion{
+    background: url(../images/Promotion-Background.avif) no-repeat;
+    background-size: cover;
+    width: 1024px;
+    height: auto;
+}
+
+#promotion p{
+    text-align: center;
+    font-size: 50px;
+}
+
+#promotion h1{
+    text-align: center;
+    background-color: #c8a28d;
+}
+
+.description h1, .description h2, .description h3{
+    text-align: center;
+}
+
+.description h1{
+    margin-bottom: 15px;
+}
+
+.description h3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.original{
+    margin-top: 15px;
+    font-size: 30px;
+}
+
+.discount{
+    font-size: 50px;
+    color: rgb(175, 32, 22);
+    padding: 0px 0px;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+    margin:20px 0px;
+    padding: 30px 0px;
+}
+
+#SChickenRice, #LCChickenRice{
+    height: 300px;
+}
+
+#SChickenRice img, #LCChickenRice img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+#SChickenRice img:hover, #LCChickenRice img:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}

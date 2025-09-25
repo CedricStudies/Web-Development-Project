@@ -1,0 +1,87 @@
+main{
+    background: url(../images/Sign-Up-Background.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 615px;
+}
+
+/* <section>  */
+
+section{
+    background-color: #EFEFEF;
+    width: 1024px;
+    height: auto;
+}
+
+/* <section> sign up form */
+
+#sign-up-header{
+    background-color: brown;
+    color:white;
+    width: 1024px;
+    height: auto;
+    padding:10px 0px;
+    text-align: center;
+    font-size: 25px;
+}
+
+section h1{
+    text-align: center;
+    margin:20px 0px 20px 0px;
+}
+
+table{
+    width:90%;
+    margin:0px auto;
+    border: 2px solid black;
+}
+
+table span{
+    color: red;
+}
+
+table td{
+    padding: 20px 0px;
+}
+
+label{
+    padding: 0px 0px 0px 80px;
+}
+
+/* <section> sign up form footer */
+
+#sign-up-footer{
+    border: solid black 2px;
+    margin:10px 5% 40px 5%;
+    padding:5px 5px;
+}
+
+#sign-up-footer ul{
+    padding:20px 20px;
+}
+
+#flex-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+#submit-button{
+    background-color: rgb(0, 255, 0);
+    margin:0px 30px;
+    width:100px;
+    height:50px;
+    border-radius: 5px;
+}
+
+#reset-button{
+    background-color: rgb(255, 0, 0);
+    margin:0px 30px;
+    width:100px;
+    height:50px;
+    border-radius: 5px;
+}

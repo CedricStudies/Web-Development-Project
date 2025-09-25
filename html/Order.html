@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NYP Foodgle Chicken Rice</title>
+    <link rel="stylesheet" href="../css/CommonCSS.css">
+    <link rel="stylesheet" href="../css/Order.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+
+        <header>
+            <img src="../images/Chicken-Rice-Logo.png" alt="ChickenRiceLogo">
+            <nav>
+                <ul>
+                    <li><a href="../html/Index.html">Home</a></li>
+                    <li><a href="../html/AboutUs.html">About Us</a></li>
+                    <li><a href="../html/SignUp.html">Sign Up</a></li>
+                    <li><a href="../html/Order.html">Order</a></li>
+                    <li id="menu"><a href="../html/Menu.html">Menu</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section>
+            <div>
+                <h1 id="order-form-header">Order Form</h1>
+            </div>
+            <div>
+                <form method="post" action="https://jkorpela.fi/cgi-bin/echo.cgi">
+                <table>
+                    <tr>
+                        <th>Number</th>
+                        <th>Price</th>
+                        <th>Food Item</th>
+                        <th>Quantity</th>
+                        <th>Special Requests</th>
+                    </tr>
+                    <tr class="food-header">
+                        <th colspan="5">Rice Meal</th>
+                    </tr>
+                    <tr>
+                        <td rowspan="3">1</td>
+                        <td rowspan="2">$3.20</td>
+                        <td><label>Roasted Chicken Rice</label></td>
+                        <td><input name="Roasted Chicken Rice" type="number" min="0" max="10"></td>
+                        <td><textarea name="Roasted Chicken Rice Special Requests" cols="50"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><label>Steamed Chicken Rice</label></td>
+                        <td><input name="Steamed Chicken Rice" type="number" min="0" max="10"></td>
+                        <td><textarea name="Steamed Chicken Rice Special Requests" cols="50"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><s>&nbsp;$3.20&nbsp;</s> <span>$2.70</span></td>
+                        <td><label>Soya Chicken Rice</label></td>
+                        <td><input name="Soya Chicken Rice" type="number" min="0" max="10"></td>
+                        <td><textarea name="Soya Chicken Rice Special Requests" cols="50"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>$3.20</td>
+                        <td><label>Char Siew Chicken Rice</label></td>
+                        <td><input name="Char Siew Chicken Rice" type="number" min="0" max="10"></td>
+                        <td><textarea name="Char Siew Chicken Rice Special Requests" cols="50"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td rowspan="3">3</td>
+                        <td rowspan="3">$3.80</td>
+                        <td><label>Roasted Chicken Drumstick Rice</label></td>
+                        <td><input name="Roasted Chicken Drumstick Rice" type="number" min="0" max="10"></td>
+                        <td><textarea name="Roasted Chicken Drumstick Rice Special Requests" cols="50" placeholder="Indicate Noodles or Horfun as desired."></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><label>Steamed Chicken Drumstick Rice</label></td>
+                        <td><input name="Steamed Chicken Drumstick Rice" type="number" min="0" max="10"></td>
+                        <td><textarea name="Steamed Chicken Drumstick Rice Special Requests" cols="50" placeholder="Indicate Noodles or Horfun as desired."></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><label>Soya Chicken Drumstick Rice</label></td>
+                        <td><input name="Soya Chicken Drumstick Rice" type="number" min="0" max="10"></td>
+                        <td><textarea name="Soya Chicken Drumstick Rice Special Requests" cols="50" placeholder="Indicate Noodles or Horfun as desired."></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>$4.00</td>
+                        <td><label>Chicken Cutlet Rice</label></td>
+                        <td><input name="Chicken Cutlet Rice" type="number" min="0" max="10"></td>
+                        <td><textarea name="Chicken Cutlet Rice Special Requests" cols="50"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td><s>&nbsp;$4.00&nbsp;</s> <span>$3.50</span></td>
+                        <td><label>Lemon Chicken Cutlet Rice</label></td>
+                        <td><input name="Lemon Chicken Cutlet Rice" type="number" min="0" max="10"></td>
+                        <td><textarea name="Lemon Chicken Cutlet Rice Special Requests" cols="50"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>$4.00</td>
+                        <td><label>Teriyaki Chicken Rice</label></td>
+                        <td><input name="Teriyaki Chicken Rice" type="number" min="0" max="10"></td>
+                        <td><textarea name="Teriyaki Chicken Rice Special Requests" cols="50"></textarea></td>
+                    </tr>
+                    <tr class="food-header">
+                        <th colspan="5">Set Meal</th>
+                    </tr>
+                    <tr>
+                        <td rowspan="3">7</td>
+                        <td rowspan="3">$4.80</td>
+                        <td><label>Roasted Chicken Rice Set</label></td>
+                        <td><input name="Roasted Chicken Rice Set" type="number" min="0" max="10"></td>
+                        <td><textarea name="Roasted Chicken Rice Set Special Requests" cols="50"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><label>Steamed Chicken Rice Set</label></td>
+                        <td><input name="Steamed Chicken Rice Set" type="number" min="0" max="10"></td>
+                        <td><textarea name="Steamed Chicken Rice Set Special Requests" cols="50"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><label>Soya Chicken Rice Set</label></td>
+                        <td><input name="Soya Chicken Rice Set" type="number" min="0" max="10"></td>
+                        <td><textarea name="Soya Chicken Rice Set Special Requests" cols="50"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td rowspan="3">8</td>
+                        <td rowspan="3">$4.80</td>
+                        <td><label>Roasted Chicken Drumstick Rice Set</label></td>
+                        <td><input name="Roasted Chicken Drumstick Rice Set" type="number" min="0" max="10"></td>
+                        <td><textarea name="Roasted Chicken Drumstick Rice Set Special Requests" cols="50" placeholder="Indicate Noodles or Horfun as desired."></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><label>Steamed Chicken Drumstick Rice Set</label></td>
+                        <td><input name="Steamed Chicken Drumstick Rice Set" type="number" min="0" max="10"></td>
+                        <td><textarea name="Steamed Chicken Drumstick Rice Set Special Requests" cols="50" placeholder="Indicate Noodles or Horfun as desired."></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><label>Soya Chicken Rice Set</label></td>
+                        <td><input name="Soya Chicken Drumstick Rice Set" type="number" min="0" max="10"></td>
+                        <td><textarea name="Soya Chicken Drumstick Rice Set Special Requests" cols="50" placeholder="Indicate Noodles or Horfun as desired."></textarea></td>
+                    </tr>
+                    <tr class="food-header">
+                        <th colspan="5">Chicken</th>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>$25.00</td>
+                        <td><label>Whole Chicken</label></td>
+                        <td><input name="Whole Chicken" type="number" min="0" max="1"></td>
+                        <td><textarea name="Whole Chicken Special Requests" cols="50"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td>$12.00</td>
+                        <td><label>Half Chicken</label></td>
+                        <td><input name="Half Chicken" type="number" min="0" max="2"></td>
+                        <td><textarea name="Half Chicken Special Requests" cols="50"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>11</td>
+                        <td>$8.00</td>
+                        <td><label>Quarter Chicken - Lower</label></td>
+                        <td><input name="Quarter Lower Chicken" type="number" min="0" max="4"></td>
+                        <td><textarea name="Quarter Lower Chicken Special Requests" cols="50"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>12</td>
+                        <td>$9.00</td>
+                        <td><label>Quarter Chicken - Upper</label></td>
+                        <td><input name="Quarter Upper Chicken" type="number" min="0" max="4"></td>
+                        <td><textarea name="Quarter Upper Chicken Special Requests" cols="50"></textarea></td>
+                    </tr>
+                    <tr class="food-header">
+                        <th colspan="5">Add On</th>
+                    </tr>
+                    <tr>
+                        <td>13</td>
+                        <td>$1.20</td>
+                        <td><label>Oyster Sauce Vegetable</label></td>
+                        <td><input name="Oyster Sauce Vegetable" type="number" min="0" max="10"></td>
+                        <td><textarea name="Oyster Sauce Vegetable Special Requests" cols="50"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>14</td>
+                        <td>$0.70</td>
+                        <td><label>Braised Egg</label></td>
+                        <td><input name="Braised Egg" type="number" min="0" max="10"></td>
+                        <td><textarea name="Braised Egg Special Requests" cols="50"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>15</td>
+                        <td>$1.50</td>
+                        <td><label>Roast Chicken/ White Chicken/ Chicken Cutlet</label></td>
+                        <td><input name="Roast Chicken/ White Chicken/ Chicken Cutlet" type="number" min="0" max="10"></td>
+                        <td><textarea name="Roast Chicken/ White Chicken/ Chicken Cutlet Special Requests" cols="50" placeholder="Indicate type of chicken as desired."></textarea></td>
+                    </tr>
+                </table>
+                <div id="order-form-footer">
+                    <label>Please indicate dining location:</label>
+                    <input name="Dining Location" type="radio" value="Dine In" checked="checked">Dine In &nbsp;&nbsp;
+                    <input name="Dining Location" type="radio" value="Take Away">Take Away
+                    <br><br>
+                    <div>
+                        <ul>
+                            <li>
+                                Condiments are self-served.
+                            </li>
+                            <li>
+                                For online bulk order, please request for packaged condiments under 'Special Requests'.
+                            </li>
+                            <li>
+                                <span>PLEASE THOROUGHLY CHECK ORDER FORM BEFORE SUBMITTING.</span>
+                            </li>
+                        </ul>
+                        <br>
+                    </div>
+                    <div id="flex-container">
+                        <input type="submit" value="Submit Form" id="submit-button">
+                        <input type="reset" value="Reset Form" id="reset-button">
+                    </div>
+                </div>
+                </form>
+
+            </div>
+        </section>
+
+        <footer>
+            Copyright 2024. Nanyang Poly Foodgle Chicken Rice Stall. All Rights reserved.
+        </footer>
+       
+    </main>
+</body>
+</html>

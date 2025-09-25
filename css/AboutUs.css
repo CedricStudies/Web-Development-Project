@@ -1,0 +1,91 @@
+main{
+    background: url(../images/AboutUs-Stall-Image.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 655px;
+}
+
+/* <section> */
+
+#bg{
+    background: url(../images/Promotion-Background.avif) no-repeat;
+    background-size: cover;
+    width: 1024px;
+    height: auto;
+}
+
+/* <section> <div id="about-us-header"> */
+
+#about-us-header{
+    background-color: brown;
+    color:white;
+    width: 1024px;
+    height: auto;
+    padding:10px 0px;
+    text-align: center;
+    font-size: 25px;
+}
+
+/* <section> <div id="mission"> */
+
+#mission{
+    text-align: center;
+    margin:20px 0px 40px 0px;
+}
+
+#mission p{
+    width: 70%;
+    margin:10px auto 0px auto;
+    text-align: center;
+    font-size: 21px;
+}
+
+/* <section> <div id="contacts"> */
+
+#contacts{
+    display: flex;
+    justify-content: space-between;
+    padding:0px 20px;
+    margin:0px 0px 50px 0px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+#contacts div{
+    text-align: center;
+}
+
+#contacts h1{
+    margin:0px 0px 20px 0px;
+}
+
+#contacts-left{
+    flex:1;
+    border-right: 2px solid black;
+}
+
+#flex-container{
+    display: flex;
+    justify-content: center;
+    margin: 200px 0px 0px 0px;
+}
+
+#contacts-left img{
+    border-radius: 120px;
+    width:80px;
+    height:auto;
+    margin:0px 40px;
+}
+
+#contacts-right{
+    flex:1;
+}
+
+#contacts-right p{
+    margin:20px 0px 0px 0px;
+}

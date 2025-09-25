@@ -1,0 +1,117 @@
+main{
+    background: url(../images/Menu-Background.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 650px;
+}
+
+section{
+    background-color: #EFEFEF;
+    width: 1024px;
+    height: auto;
+    margin:0px 0px 25px 0px;
+}
+
+/* <section> <nav> */
+
+#nav-flex-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: brown;
+}
+
+#nav-flex-container ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    margin: 0px 60px;
+}
+
+#nav-flex-container ul li a:hover{
+    color: red;
+}
+
+/* <section> */
+
+/* rice meal & chicken meal & add on*/
+#rice-meal, #set-meal, #chicken, #add-on{
+    text-align: center;
+    margin:15px 0px;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-container div{
+    flex:1;
+    background-color: white;
+    margin:10px 10px;
+    border-radius: 10px;
+    padding:10px 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.flex-container img{
+    float:left;
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    padding:0px 5px 0px 0px;
+}
+
+.flex-container div h1{
+    font-size: 18px;
+}
+
+.flex-container p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding:10px 0px 0px 0px;
+}
+
+/* set meal */
+.set-flex-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.set-flex-container div{
+    flex:1;
+    background-color: white;
+    margin:10px 10px;
+    border-radius: 10px;
+    padding:10px 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.set-flex-container img{
+    float:left;
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    padding:0px 15px 0px 0px;
+}
+
+.set-flex-container div h1{
+    font-size: 27px;
+}
+
+.set-flex-container p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding:10px 0px 0px 0px;
+}
+
+/* external section span */
+span{
+    font-size: 20px;    
+}
